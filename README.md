@@ -2,6 +2,10 @@
 
 A TRMNL plugin that generates random geometric artwork inspired by traditional Japanese Kumiko patterns. Each refresh creates a unique composition of triangular patterns with varying complexity and density.
 
+<a href="https://usetrmnl.com/recipes/220720">
+  <img src="https://usetrmnl.com/images/brand/badges/dark/show-it-on-trmnl/trmnl-badge-show-it-on-dark.svg" alt="TRMNL Badge" width="120">
+</a>
+
 ## Overview
 
 This plugin creates procedurally generated artwork using triangular geometric patterns. The artwork is generated fresh with each refresh, ensuring your TRMNL display always shows something new and unique. The patterns are inspired by traditional Japanese Kumiko woodworking techniques, featuring intricate geometric designs arranged in a triangular grid.
