@@ -1,0 +1,10 @@
+<script>
+  run({
+    outputWidth: {{ deviceWidth | minus: 20 }},
+    outputHeight: {{ deviceHeight | divided_by: 2 | minus: 15 }},
+    columns: {{ columns }},
+    strokeWidth: {{ strokeWidth }},
+    borderWidth: {{ borderWidth }},
+    emptyBias: {{ emptyness }}
+  });
+</script>

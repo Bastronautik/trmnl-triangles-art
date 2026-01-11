@@ -1,0 +1,50 @@
+---
+strategy: static
+no_screen_padding: 'yes'
+dark_mode: 'no'
+static_data: ''
+polling_verb: get
+polling_url: ''
+polling_headers: ''
+polling_body: ''
+id: 220720
+custom_fields:
+- keyname: author_bio
+  field_type: author_bio
+  name: About This Plugin
+  description: Let your TRMNL show a random generated artwork with triangles. Based on the Kumiko styled artwork from Japan, but more random. With every refresh the generated artwork gets a new look.
+  category: art
+  email_address: trmnl@achtnegen.nl
+- keyname: columns
+  field_type: number
+  name: Columns
+  description: Enter the amount of columns you would like to show.
+  help_text: Select a number between 4 and 50. Standard is 8.
+  default: '8'
+  min: 4
+  max: 50
+- keyname: stroke_width
+  field_type: number
+  name: Stroke Width
+  description: Select the width of the stroke that is used for the tiles.
+  help_text: Select a number between 2 and 50. Standard is 10.
+  default: '10'
+  min: 2
+  max: 50
+- keyname: border_width
+  field_type: number
+  name: Border Width
+  description: Select the width of the border on the outside of the artwork.
+  help_text: Select a number between 2 and 50. Standard is 10.
+  default: '10'
+  min: 2
+  max: 50
+- keyname: emptyness
+  field_type: number
+  name: Emptyness
+  description: How much whitespace would you like in your artwork? 0 means as little as possible, 10 as much as possible.
+  help_text: Select a number between 0 and 10. Standard is 5.
+  default: '5'
+  max: 10
+name: Triangles - Generated Art
+refresh_interval: 60
